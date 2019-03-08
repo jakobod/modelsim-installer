@@ -1,0 +1,19 @@
+# ignore everything
+*
+
+## reinclude necessary stuff
+# git specific stuff
+!.gitignore
+README.md
+
+## anyconnect install script
+!**/vpn/
+!**/vpn/*
+
+## install script
+!**/install.sh
+
+## mose desktop icon + starter script
+!**/mose.sh
+!**/mose.desktop
+!**/modelsim.jpg
